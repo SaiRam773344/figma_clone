@@ -18,8 +18,6 @@ type Presence = {
 // Room, even after all users leave. Fields under Storage typically are
 // LiveList, LiveMap, LiveObject instances, for which updates are
 // automatically persisted and synced to all connected clients.
-type Storage = {
-  // author: LiveObject<{ firstName: string, lastName: string }>,
   // ...
   canvasObjects: LiveMap<string, any>;
 };
